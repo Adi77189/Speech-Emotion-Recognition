@@ -57,13 +57,14 @@ Speech-Emotion-Recognition
   mfcc_extraction.png  
   model_training.png  
   realtime_prediction.png  
+# Executable codes 
 collect_features.py  
 train_model.py  
 realtime_emotion.py  
 requirements.txt  
 README.md  
 
-How the System Works
+# How the System Works
 
 Audio input is collected either from stored WAV files or directly from the microphone.  
 MFCC, delta, and delta-delta features are extracted from the audio signal.  
@@ -71,7 +72,7 @@ The extracted features are passed to a trained machine learning model.
 The model predicts the corresponding emotion label.  
 The predicted emotion is displayed in the terminal in real time.
 
-Model Details
+# Model Details
 
 The system uses a RandomForest classifier for emotion classification.  
 MFCC features along with delta and delta-delta coefficients are used.  
@@ -81,7 +82,7 @@ Results
 
 The model achieves approximately 68 to 70 percent accuracy during real-time emotion detection. This performance is considered realistic due to differences between studio-recorded training data and live microphone input.
 
-Screenshots
+# Screenshots
 
 ![Dataset Structure](screenshots/dataset_structure.png)
 
@@ -92,7 +93,7 @@ Screenshots
 ![Real Time Emotion Prediction](screenshots/realtime_prediction.png)
 
 
-How to Run the Project
+# How to Run the Project
 
 Create and activate a Python virtual environment.  
 Install required libraries using requirements.txt.  
@@ -100,7 +101,7 @@ Run collect_features.py to extract MFCC features.
 Run train_model.py to train the emotion classification model.  
 Run realtime_emotion.py to perform real-time speech emotion detection.
 
-Future Improvements
+# Future Improvements
 
 Add more emotion classes.  
 Use deep learning models such as CNN or LSTM.  

@@ -1,4 +1,4 @@
-Speech Emotion Recognition Project
+## Speech Emotion Recognition Project
 
 This project implements a Speech Emotion Recognition system using machine learning techniques. The system analyzes human speech and predicts emotions such as happy, sad, angry, and neutral. It also supports real-time emotion detection using microphone input.
 
@@ -42,22 +42,21 @@ https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio
 Project Structure
 
 Speech-Emotion-Recognition  
-data  
-audio  
-happy  
-sad  
-angry  
-neutral  
-features  
-X.npy  
-y.npy  
-model  
-emotion_model.pkl  
-screenshots  
-dataset_structure.png  
-mfcc_extraction.png  
-model_training.png  
-realtime_prediction.png  
+# data/audio  
+  happy  
+  sad  
+  angry  
+  neutral  
+# features  
+  X.npy  
+  y.npy  
+# model  
+  emotion_model.pkl  
+# screenshots  
+  dataset_structure.png  
+  mfcc_extraction.png  
+  model_training.png  
+  realtime_prediction.png  
 collect_features.py  
 train_model.py  
 realtime_emotion.py  

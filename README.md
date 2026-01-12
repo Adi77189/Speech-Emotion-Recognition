@@ -80,7 +80,7 @@ Feature normalization and class balancing are applied during training.
 
 Results
 
-The model achieves approximately 68 to 70 percent accuracy during real-time emotion detection. This performance is considered realistic due to differences between studio-recorded training data and live microphone input.
+The model achieves approximately 65 to 70 percent accuracy during real-time emotion detection. This performance is considered realistic due to differences between studio-recorded training data and live microphone input.
 
 # Screenshots
 

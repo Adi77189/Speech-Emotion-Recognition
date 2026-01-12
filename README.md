@@ -2,11 +2,11 @@
 
 This project implements a Speech Emotion Recognition system using machine learning techniques. The system analyzes human speech and predicts emotions such as happy, sad, angry, and neutral. It also supports real-time emotion detection using microphone input.
 
-Project Objective
+# Project Objective
 
 The objective of this project is to build a machine learning based system that can recognize human emotions from speech signals using audio feature extraction and classification techniques.
 
-Technologies Used
+# Technologies Used
 
 Python  
 Librosa  
@@ -15,7 +15,7 @@ Scikit-learn
 SoundDevice  
 Joblib  
 
-Dataset Used
+# Dataset Used
 
 The project uses the RAVDESS (Ryerson Audio Visual Database of Emotional Speech and Song) dataset for training and evaluation.
 
@@ -39,7 +39,7 @@ https://zenodo.org/record/1188976
 Alternative Kaggle mirror:
 https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio
 
-Project Structure
+# Project Structure
 
 Speech-Emotion-Recognition  
 # data/audio  
